@@ -1,4 +1,7 @@
 # SUKU Ethereum Node API Client Lib
+
+![Publish NPM Package](https://github.com/SukuLab/suku-ethereum-node-api-client-lib/workflows/Publish%20NPM%20Package/badge.svg)
+
 This is the SUKU Ethereum Node API Client Lib that can be used to handle REST calls to the [SUKU Ethereum Node API](https://github.com/SukuLab/suku-ethereum-node-api).
 
 ## Getting Started
