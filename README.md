@@ -1,5 +1,6 @@
 # SUKU Ethereum Node API Client Lib
 
+[![npm version](https://badge.fury.io/js/%40suku%2Fsuku-ethereum-node-api-client-lib.svg)](https://badge.fury.io/js/%40suku%2Fsuku-ethereum-node-api-client-lib)
 ![Publish NPM Package](https://github.com/SukuLab/suku-ethereum-node-api-client-lib/workflows/Publish%20NPM%20Package/badge.svg)
 
 This is the SUKU Ethereum Node API Client Lib that can be used to handle REST calls to the [SUKU Ethereum Node API](https://github.com/SukuLab/suku-ethereum-node-api).
@@ -7,10 +8,17 @@ This is the SUKU Ethereum Node API Client Lib that can be used to handle REST ca
 ## Getting Started
 Before using this library you should have a running instance of the Node API. If you do not have a running instance yet, please start by deploying the [SUKU Ethereum Node API](https://github.com/SukuLab/suku-ethereum-node-api).
 
+## Installing the library
+Install [@suku/suku-ethereum-node-api-client-lib](https://www.npmjs.com/package/@suku/suku-ethereum-node-api-client-lib) from NPM
+
+```
+npm i --save @suku/suku-ethereum-node-api-client-lib
+```
+
 ## Using the library
 ```js
 import NodeManager from '@suku/suku-ethereum-node-api-client-lib';
-const nodeManagerUrl = "http://bc-node-manager-url:3000";
+const nodeManagerUrl = "http://ethereum-node-api:3000";
 const privateKey = "<private key here>";
 
 let nodeManager = new NodeManager(nodeManagerUrl, privateKey);
